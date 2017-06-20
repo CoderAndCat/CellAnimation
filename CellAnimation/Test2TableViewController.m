@@ -142,9 +142,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationNone";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -153,9 +155,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationFade";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -164,9 +168,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationRight";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -175,9 +181,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationLeft";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -186,9 +194,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationTop";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -197,9 +207,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationBottom";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -208,9 +220,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationMiddle";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
@@ -219,9 +233,11 @@
             if (indexPath.row == 0) {
                 cell.detailTextLabel.text = @"点我-UITableViewRowAnimationAutomatic";
                 cell.textLabel.text = nil;
+                cell.backgroundColor = [UIColor whiteColor];
             }else{
                 cell.textLabel.text = [NSString stringWithFormat:@"%ld区,%ld行",indexPath.section,indexPath.row];
                 cell.detailTextLabel.text = nil;
+                cell.backgroundColor = [UIColor orangeColor];
             }
         }
             break;
