@@ -26,19 +26,17 @@
     //第二分支在工作 又一次工作 又工作一次
     //第一分支在工作
     //在warren2分支下的改动 再改动一次 
-    
-    ///master 分支下的改动，测试会不会在test1的分支下展示
-    //分支的基础版本不能低于master
+
+    ///master 分支下的改动，测试会不会在 test1 的分支下展示
+    //分支的基础版本不能低于master ！@￥！@#%@……
     //warren分支改变后需要拉取master的合并后在提交
-    
-    ///test1 分支下的改动
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
+//MARK: SOME
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
