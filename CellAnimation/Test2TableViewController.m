@@ -25,9 +25,8 @@
     [super viewDidLoad];
     //第二分支在工作 又一次工作 又工作一次
     //第一分支在工作
-    
+    //some else
     ///master 分支下的改动，测试会不会在test1的分支下展示
-    //分支的基础版本不能低于master 
     
     ///test1 分支下的改动
     // Uncomment the following line to preserve selection between presentations.
