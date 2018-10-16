@@ -23,21 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //第二分支在工作 又一次工作 又工作一次
-    //第一分支在工作
-    //在warren2分支下的改动 再改动一次 
-
-    ///master 分支下的改动，测试会不会在 test1 的分支下展示
-    //分支的基础版本不能低于master ！@￥！@#%@……
-    //warren分支改变后需要拉取master的合并后在提交
-    
-    ///test1 分支下的改动
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWill;
-    
-    //warren 下的改动 再次改动
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+ 
 }
 //MARK: SOME
 - (void)didReceiveMemoryWarning {
@@ -135,9 +121,9 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"qqqq"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"qq"];
     if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"qqqq"];
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:@"qq"];
     }
 //    if (indexPath.section == 0 && indexPath.row == 0) {
 //        cell.detailTextLabel.text = @"点我-UITableViewRowAnimationNone";
@@ -263,6 +249,7 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSLog(@"%ld",indexPath.row);
     NSIndexPath *indexpath1;
     if (indexPath.section == 0 && indexPath.row == 0) {
         indexpath1 = [NSIndexPath indexPathForRow:1 inSection:0];
@@ -334,48 +321,9 @@
 {
     return [NSString stringWithFormat:@"%ld区",section];
 }
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+- (void)dealloc
+{
+    NSLog(@"Test2TableViewController控制器释放");
 }
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
