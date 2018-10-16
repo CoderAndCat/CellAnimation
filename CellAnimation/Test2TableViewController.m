@@ -319,11 +319,11 @@
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return [NSString stringWithFormat:@"%ld区 随便添加点字符串",section];
+    return [NSString stringWithFormat:@"%ld区 随便添加点",section];
 }
 - (void)dealloc
 {
-    NSLog(@"Test2TableViewController控制器释放");
+    NSLog(@"Test2TableViewController控制器释放xxx");
 }
 
 @end
