@@ -23,7 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
+
 }
 //MARK: SOME
 - (void)didReceiveMemoryWarning {
@@ -323,7 +323,9 @@
 }
 - (void)dealloc
 {
+
     NSLog(@"Test2TableViewController控制器释放");
+
 }
 
 @end
